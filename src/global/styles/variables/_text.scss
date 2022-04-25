@@ -1,0 +1,27 @@
+$t1: 26px;
+$t2: 20px;
+$t3: 16px;
+$t4: 14px;
+$t5: 12px;
+$t6: 12px;
+$hero: 36px;
+$heroBold: 40px;
+
+$text-sizes: (
+  t1: $t1,
+  t2: $t2,
+  t3: $t3,
+  t4: $t4,
+  t5: $t5,
+  t6: $t6,
+  hero: $hero,
+  hero-bold: $heroBold,
+);
+
+$font-weights: (
+  light: 300,
+  normal: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+);

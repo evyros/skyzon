@@ -1,0 +1,88 @@
+$white: #FFFFFF;
+
+$gray-100: #F6F7F7;
+$gray-200: #DDDFE1;
+$gray-300: #A4A9B0;
+$gray-400: #818891;
+$gray-500: #4D5259;
+$gray-600: #3A3E43;
+$gray-700: #2A2D31;
+
+$red-100: #FFF4F5;
+$red-200: #FFEAEB;
+$red-300: #FFD5D8;
+$red-400: #E30613; // JLL Primary Color
+$red-500: #A9000B;
+$red-600: #820009;
+$red-700: #620007;
+
+$blue-200: #d9ecfd;
+$blue-400: #1089F3;
+$blue-600: #0060C5;
+
+$pink: #EF267A;
+$pink-light: #FCD4E4;
+$purple: #A81FCF;
+$purple-light: #EED2F5;
+$lavender: #5B2BDA;
+$lavender-light: #DED5F8;
+$ocean: #33B5E3;
+$ocean-light: #D6F0F9;
+$aquamarine: #21B09A;
+$aquamarine-light: #D3EFEB;
+$green: #1CC263;
+$green-light: #D2F3E0;
+$red: #E30613;
+$red-light: #FCDBDB;
+$orange: #FF9A24;
+$orange-light: #FFEBD3;
+$yellow: #FCCD12;
+
+/* Semantic variables */
+$primary: #2A2D31;
+$secondary: #A4A9B0;
+
+$colors: (
+  "white": $white,
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400,
+  "gray-500": $gray-500,
+  "gray-600": $gray-600,
+  "gray-700": $gray-700,
+
+  "red-100": $red-100,
+  "red-200": $red-200,
+  "red-300": $red-300,
+  "red-400": $red-400,
+  "red-500": $red-500,
+  "red-600": $red-600,
+  "red-700": $red-700,
+
+  "blue-200": $blue-200,
+  "blue-400": $blue-400,
+  "blue-600": $blue-600,
+
+  "pink": $pink,
+  "purple": $purple,
+  "lavender": $lavender,
+  "ocean": $ocean,
+  "aquamarine": $aquamarine,
+  "green": $green,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "purple-light": $purple-light,
+  "lavender-light": $lavender-light,
+  "ocean-light": $ocean-light,
+  "aquamarine-light": $aquamarine-light,
+  "green-light": $green-light,
+  "red-light": $red-light,
+  "orange-light": $orange-light,
+  "pink-light": $pink-light,
+
+  "primary": $primary,
+  "secondary": $primary
+);
+

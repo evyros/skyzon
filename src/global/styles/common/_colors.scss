@@ -1,0 +1,13 @@
+@import '../variables/colors';
+
+:root {
+  @each $key, $value in $colors {
+    --#{$key}: #{$value};
+  }
+}
+
+@each $key, $value in $colors {
+  .color-#{$key} {
+    color: var(--#{$key})
+  }
+}

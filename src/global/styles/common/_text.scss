@@ -1,0 +1,54 @@
+@import '../variables/text';
+
+:root {
+  @each $key, $value in $text-sizes {
+    --#{$key}: #{$value};
+  }
+}
+
+.skl-hero-bold {
+  font-size: var(--hero-bold);
+  font-weight: 700;
+}
+
+.skl-hero {
+  font-size: var(--hero);
+  font-weight: 400;
+}
+
+.skl-headline {
+  font-size: var(--t1);
+  font-weight: 400;
+}
+
+.skl-title {
+  font-size: var(--t2);
+  font-weight: 500;
+}
+
+.skl-subtitle {
+  font-size: var(--t3);
+}
+
+.skl-caption {
+  font-size: var(--t5);
+}
+
+.skl-ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@each $key, $value in $text-sizes {
+  .#{$key} {
+    font-size: $value;
+  }
+}
+
+@each $key, $value in $font-weights {
+  .skl-font-weight-#{$key} {
+    font-weight: $value;
+  }
+}

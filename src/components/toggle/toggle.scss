@@ -1,0 +1,57 @@
+.skz-toggle {
+  display: flex;
+  align-items: center;
+
+  label {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: var(--gray-400);
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+.toggle-btn {
+  display: inline-block;
+  outline: 0;
+  width: 40px;
+  height: 21px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  background: var(--gray-300);
+  border-radius: 20px;
+  padding: 2px;
+  transition: all 0.4s ease;
+
+  input {
+    display: none;
+  }
+
+  &.toggle-btn-on {
+    background: var(--gray-700);
+    &::after {
+      left: 50%;
+    }
+    &:active::after {
+      margin-left: -0.8em;
+    }
+  }
+
+  &::after {
+    left: 0;
+    position: relative;
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  }
+
+  &:active::after {
+    padding-right: 0.8em;
+  }
+}

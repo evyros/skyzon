@@ -1,0 +1,161 @@
+.skz-badge {
+  padding: 2px 10px;
+  font-size: var(--t5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-weight: 500;
+
+  &--pill {
+    border-radius: 50px;
+  }
+
+  &--label {
+    border-radius: 4px;
+  }
+
+  &--bubble {
+    padding: 2px 7px;
+    border-radius: 4px;
+    cursor: default;
+  }
+
+  &--blue-200 {
+    color: var(--blue-400);
+    background-color: var(--blue-200);
+  }
+
+  &--red-200 {
+    color: var(--red-500);
+    background-color: var(--red-200);
+  }
+
+  &--red-400 {
+    color: var(--white);
+    background-color: var(--red-400);
+  }
+
+  &--red-600 {
+    color: var(--white);
+    background-color: var(--red-600);
+  }
+
+  // Default
+  &--gray-600 {
+    color: var(--white);
+    background-color: var(--gray-600);
+  }
+
+  &--gray-200 {
+    color: var(--gray-500);
+    background-color: var(--gray-200);
+  }
+
+  &--success {
+    color: var(--white);
+    background-color: var(--green);
+  }
+
+  &--danger {
+    color: var(--white);
+    background-color: var(--red);
+  }
+
+  &--warning {
+    color: var(--gray-600);
+    background-color: var(--yellow);
+  }
+
+  &--gray-200 {
+    color: var(--gray-400);
+    background-color: var(--gray-200);
+  }
+
+  &--white {
+    color: var(--gray-600);
+    background-color: var(--white);
+    border: 1px solid var(--gray-400);
+  }
+
+  &--pink {
+    color: var(--white);
+    background-color: var(--pink);
+  }
+
+  &--pink-light {
+    color: var(--pink);
+    background-color: var(--pink-light);
+  }
+
+  &--purple {
+    color: var(--white);
+    background-color: var(--purple);
+  }
+
+  &--purple-light {
+    color: var(--purple);
+    background-color: var(--purple-light);
+  }
+
+  &--lavender {
+    color: var(--white);
+    background-color: var(--lavender);
+  }
+
+  &--lavender-light {
+    color: var(--lavender);
+    background-color: var(--lavender-light);
+  }
+
+  &--ocean {
+    color: var(--white);
+    background-color: var(--ocean);
+  }
+
+  &--blue-600 {
+    color: var(--white);
+    background-color: var(--blue-600);
+  }
+
+  &--orange {
+    color: var(--white);
+    background-color: var(--orange);
+  }
+
+  &--ocean-light {
+    color: var(--ocean);
+    background-color: var(--ocean-light);
+  }
+
+  &--aquamarine {
+    color: var(--white);
+    background-color: var(--aquamarine);
+  }
+
+  &--aquamarine-light {
+    color: var(--aquamarine);
+    background-color: var(--aquamarine-light);
+  }
+
+  &--red-light {
+    color: var(--red);
+    background-color: var(--red-light);
+  }
+
+  &--gray-100 {
+    color: var(--gray-600);
+    background-color: var(--gray-100);
+  }
+
+  &--gray-200 {
+    color: var(--gray-600);
+    background-color: var(--gray-200);
+  }
+
+  &--gray-400 {
+    color: var(--white);
+    background-color: var(--gray-400);
+  }
+
+}

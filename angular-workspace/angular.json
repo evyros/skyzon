@@ -1,0 +1,40 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "skyzon-lib": {
+      "projectType": "library",
+      "root": "projects/skyzon-lib",
+      "sourceRoot": "projects/skyzon-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/skyzon-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/skyzon-lib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/skyzon-lib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/skyzon-lib/src/test.ts",
+            "tsConfig": "projects/skyzon-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/skyzon-lib/karma.conf.js"
+          }
+        }
+      }
+    }
+
+  },
+  "defaultProject": "skyzon-lib"
+}
